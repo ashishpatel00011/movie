@@ -1,0 +1,34 @@
+.header {
+    align-items: center;
+    display: flex;
+    /* background-color: black; */
+    justify-content:space-between;
+}
+
+.hleft, .hright {
+    display: flex;
+    align-items: center;
+
+}
+
+.hleft h1{
+    font-size: 2.5rem;
+    color: white;
+}
+h1 span{
+    cursor: pointer;
+    color: rgb(131, 225, 0);
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
